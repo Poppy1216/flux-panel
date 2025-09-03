@@ -1,11 +1,11 @@
 #!/bin/bash
 # 下载地址
-DOWNLOAD_URL="https://hk.gh-proxy.com/https://github.com/Poppy1216/flux-panel/releases/download/gost/gost"
+DOWNLOAD_URL="https://github.com/Poppy1216/flux-panel/releases/download/gost/gost"
 INSTALL_DIR="/etc/gost"
 COUNTRY=$(curl -s https://ipinfo.io/country)
 if [ "$COUNTRY" = "CN" ]; then
     # 拼接 URL
-    DOWNLOAD_URL="https://ghfast.top/${DOWNLOAD_URL}"
+    DOWNLOAD_URL="https://hk.gh-proxy.com/${DOWNLOAD_URL}"
 fi
 
 
