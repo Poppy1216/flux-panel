@@ -1,12 +1,12 @@
 #!/bin/bash
 # 下载地址
-DOWNLOAD_URL="https://github.com/bqlpfy/flux-panel/releases/download/gost-latest/gost"
+DOWNLOAD_URL="https://hk.gh-proxy.com/https://github.com/bqlpfy/flux-panel/releases/download/gost-latest/gost"
 INSTALL_DIR="/etc/gost"
-COUNTRY=$(curl -s https://ipinfo.io/country)
-if [ "$COUNTRY" = "CN" ]; then
+#COUNTRY=$(curl -s https://ipinfo.io/country)
+#if [ "$COUNTRY" = "CN" ]; then
     # 拼接 URL
-    DOWNLOAD_URL="https://hk.gh-proxy.com/${DOWNLOAD_URL}"
-fi
+    #DOWNLOAD_URL="https://hk.gh-proxy.com/${DOWNLOAD_URL}"
+#fi
 
 
 
