@@ -1,6 +1,6 @@
 #!/bin/bash
 # 下载地址
-DOWNLOAD_URL="https://github.com/Poppy1216/flux-panel/releases/download/gost/gost"
+DOWNLOAD_URL="https://github.com/bqlpfy/flux-panel/releases/download/gost-latest/gost"
 INSTALL_DIR="/etc/gost"
 COUNTRY=$(curl -s https://ipinfo.io/country)
 if [ "$COUNTRY" = "CN" ]; then
